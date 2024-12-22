@@ -77,8 +77,7 @@ function init() {
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  const container = document.getElementById('three-container');
-  container.appendChild(renderer.domElement);
+  document.body.appendChild(renderer.domElement);
 
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.addEventListener('change', render); // use if there is no animation loop
