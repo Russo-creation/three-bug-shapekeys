@@ -1,0 +1,22 @@
+{
+  "name": "viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^6.0.1",
+    "vite-plugin-top-level-await": "^1.4.4"
+  },
+  "dependencies": {
+    "three": "^0.171.0",
+    "three-stdlib": "^2.34.0"
+  }
+}
